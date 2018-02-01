@@ -1,0 +1,243 @@
+body {
+	font-family: Lato, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	height: 862px;
+   }
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+nav {
+float: right;
+margin-top: 54px;
+}
+
+.menu {
+padding:0;
+margin: 0;
+font-family: Lato;
+font-weight: normal;
+
+}
+
+.menu li{
+	float: left;
+	
+	display: block;
+	margin-right: 61px;
+
+}
+
+.menu a {
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.solid {
+	border: 3px solid #ffffff;
+	border-radius: 25px;
+	width: 77px;
+	padding: 12px 0;
+	margin: -13px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+}
+
+.profile {
+position:absolute; 
+}
+
+.profile .icon{
+background: url(../img/2.png) no-repeat; 
+width: 60px; 
+height: 50px; 
+margin-top: -14px;
+}
+
+@font-face {
+	font-family: "ChunkFiveExtraBold";
+	src: url(../fonts/ChunkFiveEx_7.ttf);
+}
+
+h1 {
+	font-family: ChunkFive;
+	font-size: 86px;
+	margin: 0;
+}
+
+.h1_text {
+	color: #fff;
+	margin-top: 168px;
+	text-align: center;
+}
+
+.text {
+	color: #01a2a6;
+}
+
+
+
+.text_p1 {
+	font-family: Lato;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.80em;
+}
+
+.button {
+	background: #ffffa6;
+	font-family: Lato;
+	color: #10273d;
+	border-radius: 45px;
+	display: block;
+	width: 248px;
+	padding: 30px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 900;
+	font-size: 18px;
+	margin-top: 56px;
+}
+
+/* header stop */
+
+#city {
+	height: 450px;
+}
+
+.city_img {
+	float: left;
+	margin-bottom: 111px;
+	margin-top: 77px;
+	position: absolute;
+}
+
+
+.city_of_love {
+	float: right;
+    margin-top: 111px;
+	padding-left: 95px;
+	position: relative;
+
+}
+
+h3{
+	margin: 0;
+}
+
+.h3_city {
+	font-family: ChunkFive;
+	font-size: 62px;
+	color: #29d9c2;
+}
+
+.love {
+	color: #01a2a6;
+}
+
+.p_city {
+	font-family: Lato;
+	font-size: 18px;
+	color: #777777;
+	line-height: 1.80em;
+}
+
+/* City of love stop */
+
+#destiny {
+	background-color: #f2fefe;
+	height: 365px;
+}
+
+.h3_destination {
+	font-family: ChunkFive;
+	font-size: 69px;
+	float: left;
+	margin-top: 71px;
+	position: absolute;
+	color: #01a2a6;
+	}
+
+.des{
+	color: #29d9c2;
+}
+
+.icon_file {
+	color: #c1c1c1;
+	margin-top: 90px;
+	float: right;
+	position: relative;
+	padding-right: 80px;
+}
+
+.icon_file i {
+	font-size: 16px;
+}
+
+.see {
+	font-family: Lato;
+	font-size: 16px;
+	padding-left: 5px;
+
+}
+
+.being {
+	font-family: Lato;
+	font-size: 18px;
+	color: #777777;
+	padding-top: 194px;
+}
+
+
+.container-1 {
+	padding-top: 70px;
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+}
+
+.container-1 input#search {
+	width: 237px;
+	height: 38px;
+	background: #fff;
+	border: solid;
+	border-radius: 20px;
+	border-width: 1px;
+	border-color: #e8e8e8;
+	font-size: 14px;
+	float: left;
+	padding-left: 45px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.container-1 .icon {
+	position: absolute;
+	top: 50%;
+	margin-left: 17px;
+	margin-top: 42px;
+	z-index: 1;
+	color: #4f5b66;
+}
