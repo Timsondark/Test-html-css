@@ -241,3 +241,23 @@ h3{
 	z-index: 1;
 	color: #4f5b66;
 }
+
+.all.place {
+	float: right;
+	position: relative;	
+	margin-top: 8px;
+	margin-right: 70px;
+}
+
+.all.place a {
+	font-family: Lato;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #777777;
+	font-weight: 900;
+}
+
+.all.place a:nth-child(2) {
+	font-weight: normal;
+}
